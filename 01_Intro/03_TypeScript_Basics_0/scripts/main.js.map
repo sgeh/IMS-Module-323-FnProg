@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;AAAA,IAAM,OAAO,GAAW,YAAY,CAAC;AACrC,KAAK,CAAC,OAAO,CAAC,CAAC","sources":["webpack://bwz-rappi-ts-build/./src/main.ts"],"sourcesContent":["const message: string = 'hallo welt';\nalert(message);"],"names":[],"sourceRoot":""}

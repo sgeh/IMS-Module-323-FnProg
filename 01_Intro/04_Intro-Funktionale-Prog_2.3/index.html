@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Funktionale Programmierung - TypeScript-Vorlage</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="scripts/main.js" defer></script>
+</head>
+<body>
+	<h1>Pythagoras-Rechner</h1>
+	<form id="calc-c">
+		<fieldset>
+			<legend>Calculate c</legend>
+			<div>
+				<label>
+					a:
+					<input name="a-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					b:
+					<input name="b-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<p><input type="submit" value="Berechnen"></p>
+			</div>
+			<div>
+				<label>
+					c =
+					<input name="result" type="number" readonly disabled>
+				</label>
+			</div>
+		</fieldset>
+	</form>
+	<hr>
+	<form id="calc-a">
+		<fieldset>
+			<legend>Calculate a</legend>
+			<div>
+				<label>
+					b:
+					<input name="b-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					c:
+					<input name="c-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<p><input type="submit" value="Berechnen"></p>
+			</div>
+			<div>
+				<label>
+					a =
+					<input name="result" type="number" readonly disabled>
+				</label>
+			</div>
+		</fieldset>
+	</form>
+	<hr>
+	<form id="calc-b">
+		<fieldset>
+			<legend>Calculate b</legend>
+			<div>
+				<label>
+					a:
+					<input name="a-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<label>
+					c:
+					<input name="c-input" type="number" min="0" required>
+				</label>
+			</div>
+			<div>
+				<p><input type="submit" value="Berechnen"></p>
+			</div>
+			<div>
+				<label>
+					b =
+					<input name="result" type="number" readonly disabled>
+				</label>
+			</div>
+		</fieldset>
+	</form>
+	<hr>
+	<input type="button" id="show-history" value="Show History">
+</body>
+</html>
