@@ -1,0 +1,8 @@
+<span>{{ title }} -
+  Text Propert as <em>Signal()</em>: {{ text() }}&nbsp;
+  <input type="text" [placeholder]="placeHolderText" [value]="numberInput">&nbsp;
+  <input type="button" (click)="onClick()" value="ok">&nbsp;
+  <input type="number" (change)="onDataEntered($event)">
+</span>
+
+<router-outlet />

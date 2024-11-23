@@ -68,7 +68,7 @@ xcuserdata/
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -77,3 +77,6 @@ xcuserdata/
 # System Files
 .DS_Store
 Thumbs.db
+
+# Ignore cache created with the Angular CLI.
+.angular/
