@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { PythagorasSideCComponent } from "./pythagoras-side-c.component";
-import { PyhtagorasSideAComponent } from "./pythagoras-side-a.component";
-import { PyhtagorasSideBComponent } from "./pythagoras-side-b.component";
+import { PythagorasSideAComponent } from "./pythagoras-side-a.component";
+import { PythagorasSideBComponent } from "./pythagoras-side-b.component";
 import { HistoryEntry } from '../history-entry';
 
 @Component({
   selector: 'app-pythagoras-overview',
   standalone: true,
-  imports: [PythagorasSideCComponent, PyhtagorasSideAComponent, PyhtagorasSideBComponent],
+  imports: [PythagorasSideCComponent, PythagorasSideAComponent, PythagorasSideBComponent],
   template: `
 <app-pythagoras-side-c (calculationClick)="onHistoryAdd($event)"></app-pythagoras-side-c>
 <hr>
@@ -19,7 +19,7 @@ import { HistoryEntry } from '../history-entry';
   `,
   styles: ``
 })
-export class PyhtagorasOverviewComponent {
+export class PythagorasOverviewComponent {
   private readonly calcHistory: HistoryEntry[] = [ ]; 
 
   onHistoryAdd(entry: HistoryEntry) {

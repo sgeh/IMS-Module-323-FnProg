@@ -42,7 +42,7 @@ import { calculateB, calculateBeta } from '../../math';
   `,
   styles: ``
 })
-export class PyhtagorasSideBComponent {
+export class PythagorasSideBComponent {
   public result = 0;
   public beta = 0;
   private a = 0;
